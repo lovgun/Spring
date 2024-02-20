@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!--  <bean  id="b" class="com.lovely.autoWiredProject.B" />
+
+<bean class="com.lovely.autoWiredProject.A" >
+<property name="bean" ref="b"></property>
+</bean> -->
+
+<bean class="com.lovely.autoWiredProjectByType.C" />
+<bean class="com.lovely.autoWiredProjectByType.A" autowire="byType" >
+</bean>
+ 
+ <bean id="bean" class="com.lovely.autoWiredByName.Bb"/>
+ <bean class="com.lovely.autoWiredByName.Aa" autowire="byName">
+ </bean>
+
+</beans>

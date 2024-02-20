@@ -1,0 +1,14 @@
+package com.lovely.mavenDemoByName;
+
+
+	public class B {
+		public void m2(){
+			System.out.println("m2() of B class");
+		}
+
+	
+
+
+}
+
+
